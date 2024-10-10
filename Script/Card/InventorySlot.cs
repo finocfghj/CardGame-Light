@@ -13,6 +13,8 @@ public class InventorySlot
 
     private CardDifinition card;
 
+    public int index;
+
     public bool active
     {
         get 

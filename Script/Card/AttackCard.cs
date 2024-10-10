@@ -6,7 +6,7 @@ public class AttackCard:CardDifinition
 {
     public int damage;
 
-    public AttackCard(Sprite sprite, float cost, string name, bool canSeek,int damage) : base(sprite, cost, name, canSeek)
+    public AttackCard(Sprite sprite, float cost, string name, bool canSeek,int damage,string discription) : base(sprite, cost, name, canSeek,discription)
     {
         this.damage = damage;
     }
